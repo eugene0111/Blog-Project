@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://app.eugenesam.workers.dev/api/v1"
