@@ -30,11 +30,11 @@ userRouter.post('/signup', async(c) => {
       data: {
         email: body.email,
         name: body.name,
-        password: body.name
+        password: body.password
       }
     });
 
-    const token = await sign({ id: userId }, c.env.JWT_SECRET);
+    const token = await sign({ id: userId.id }, c.env.JWT_SECRET);
     c.status(200);
     return c.json({
       token: token
