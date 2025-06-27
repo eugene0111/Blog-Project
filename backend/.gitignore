@@ -5,7 +5,6 @@ dist/
 .yarn/
 !.yarn/releases
 .vscode/*
-package-lock.json
 !.vscode/launch.json
 !.vscode/*.code-snippets
 .idea/workspace.xml
